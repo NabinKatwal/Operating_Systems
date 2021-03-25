@@ -26,7 +26,7 @@ class FCFS_PR:
                     self.page_faults += 1
 
         return self.page_faults
-    
+     
     def display_results(self):
         self.page_fault()
         print(f"{self.pages}")
